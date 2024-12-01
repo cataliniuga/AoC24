@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "test": "deno test --fail-fast -R",
+    "solve": "deno run -R"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
