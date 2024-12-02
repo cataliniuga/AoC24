@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "test": "deno test -R",
+    "test": "deno test --fail-fast -R",
     "solve": "deno run -R"
   },
   "imports": {
